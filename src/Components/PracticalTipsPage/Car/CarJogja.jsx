@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 import Navbar from '../../Landing/Navbar/Navbar'
-
+import BotButton from '../../Landing/Landing-bot/BotButton'
 import Footer from '../../Footer/Footer'
 
 const CarJogja = () => {
@@ -78,6 +78,9 @@ const CarJogja = () => {
                 </button>
                 <p className='font-Poppins'>Back to Practical Tips Page</p>
             </div>
+        </div>
+        <div className='flex justify-center items-center'>
+            <BotButton />
         </div>
         <Footer />
     </div>
