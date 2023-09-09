@@ -17,19 +17,8 @@ const AirplaneJogja = () => {
                 <p className='text-white text-[12px] text-center mt-5 lg:w-[50vw] lg:text-[16px]'>Traveling to Jogja with airplane is one of the easiest methods.By following all rules, it's gonna be the best holiday ever.</p>
             </div>
         </div>
-        <div className='flex justify-end px-10'>
-            <div className='flex gap-2 items-center bg-button2 rounded-xl w-[300px] cursor-pointer drop-shadow-md my-5'
-                onClick={() => navigateToPracticalTipsPage('/practical-tips-page')}>
-                <button 
-                    id='botButton' 
-                    className='text-button  text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
-                >
-                    <i className='bx bx-x'></i>
-                </button>
-                <p className='font-Poppins'>Back to Practical Tips Page</p>
-            </div>
-        </div>
-        <div className='flex flex-col items-center px-5 mb-10 sm:items-start lg:flex-row lg:px-10'>
+
+        <div className='flex flex-col items-center px-5 pt-10 mb-10 sm:items-start lg:flex-row lg:px-10'>
             <div className='mb-5 lg:w-1/3'>
                 <h2 className='border-t-2 pt-2 lg:w-[270px]'>Useful things to know</h2>
             </div>
@@ -56,6 +45,18 @@ const AirplaneJogja = () => {
                         <li><i class='bx bx-chevron-right font-bold text-[20px] relative top-[3px]'></i>For more information, you can contact the nearest <b>Indonesian Embassy or Consulate</b> or check <b>the official Indonesian government website</b> for the most accurate and up-to-date information regarding passport and visa requirements.</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        <div className='flex justify-end px-10'>
+            <div className='flex gap-2 items-center bg-button2 rounded-xl w-[300px] cursor-pointer drop-shadow-md my-5'
+                onClick={() => navigateToPracticalTipsPage('/practical-tips-page')}>
+                <button 
+                    id='botButton' 
+                    className='text-button  text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
+                >
+                    <i className='bx bx-x'></i>
+                </button>
+                <p className='font-Poppins'>Back to Practical Tips Page</p>
             </div>
         </div>
         <Footer />
